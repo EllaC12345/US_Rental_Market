@@ -55,10 +55,10 @@ def create_map_plot():
 #fig.show(create_map_plot())
 # Save the Plotly figure as an HTML file
 fig = create_map_plot()
-fig.write_html("map_plot.html")
+fig.write_html("index.html")
 
 # Read the HTML content
-with open("map_plot.html", "r") as f:
+with open("index.html", "r") as f:
     plot_html = f.read()
     
 
