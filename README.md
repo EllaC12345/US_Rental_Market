@@ -11,8 +11,13 @@ Methodology Overview :
 1. Performed data exploratory and cleansing techniques using pandas
 2. Performed further analysis around apartment amenities and apartment size (i.e. 1bed/1ba , 2 beds/2bas etc..)
 3. Leveraged Scikit Learn's Hot encoding and StandardScaler techniques to normalize and standardize the dataset
-4. Leveraged unserpivised learning techniques ( KMeans Clsutering and PCA) to determine the market segments 
+4. Leveraged unsupervised learning techniques ( KMeans Clsutering and PCA) to determine the market segments
+   - KMeans Outcome :2 segments identified
+   - Principal Components Analysis Outcome: 2 segment identified
+5. Leveraged PYcaret and XGboost algorithm for feature importance determination to improve segment classication
+   
+6.Results & Outcomes:
+- classification supported by price, square feet 
+-
 
-Results & Outcomes
-
-Growth and Nex Steps 
+Growth and Next Steps 
