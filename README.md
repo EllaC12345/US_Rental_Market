@@ -24,7 +24,7 @@ The dataset comprises a compilation of apartment listings available for rent acr
    - KMeans Outcome :2 segments identified
    - Principal Components Analysis Outcome: 2 segments identified with an Explained Variance Ratio  of 62%.
 5. Employed PyCaret and the XGboost algorithm to enhance clustering techniques and determine feature importance
-   - Achived an accuracy rate = 99%
+   - Achieved an accuracy rate = 99%
    
 **Results & Outcomes:**
 
