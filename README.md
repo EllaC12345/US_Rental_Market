@@ -19,10 +19,10 @@ The dataset comprises a compilation of apartment listings available for rent acr
    - Outdoor amenities: Patio/Deck, Clubhouse, Playground'
    - Convenience amenities: Parking, Garbage Disposal, Washer Dryer, AC, Elevator, Dishwasher, Storage, Gated, Refrigerator,Cable or Satellite,Internet Access
    - Luxury amenities: Fireplace, Wood Floors, View, Doorman, Luxury, Hot Tub  
-3. Utilized Scikit Learn's Hot encoding and StandardScaler techniques to normalize and standardize the dataset
+3. Utilized Scikit Learn's One-Hot Encoding and StandardScaler techniques to normalize and standardize the dataset.
 4. Applied unsupervised learning techniques (i.e. KMeans Clustering and PCA) to determine the market segments
    - KMeans Outcome :2 segments identified
-   - Principal Components Analysis Outcome: 2 segments identified with an Explained Variance Ratio  of 62%.
+   - Principal Components Analysis Outcome: 2 segments identified with an Explained Variance Ratio  of 69%.
 5. Employed PyCaret and the XGboost algorithm to enhance clustering techniques and determine feature importance
    - Achieved an accuracy rate = 99%
    
