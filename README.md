@@ -13,7 +13,7 @@ The dataset comprises a compilation of apartment listings available for rent acr
 
 **Methodology Overview** :
 
-1. Performed data exploration and cleaning techniques using pandas and numpy libraries
+1. Performed data exploration and cleaning techniques using pandas and numpy libraries. Refer to US Rental Market power point presentation for more details.
 2. Analyzed apartment amenities and sizes (i.e. 1bed/1ba , 2 beds/2bas etc..)
    - Sports amenities: Pool, Gym, Tennis, Basketball, Golf
    - Outdoor amenities: Patio/Deck, Clubhouse, Playground'
@@ -22,7 +22,7 @@ The dataset comprises a compilation of apartment listings available for rent acr
 3. Utilized Scikit Learn's One-Hot Encoding and StandardScaler techniques to normalize and standardize the dataset.
 4. Applied unsupervised learning techniques (i.e. KMeans Clustering and PCA) to determine the market segments
    - KMeans Outcome :2 segments identified
-   - Principal Components Analysis Outcome: 2 segments identified with an Explained Variance Ratio  of 69%.
+   - Principal Components Analysis Outcome: 2 segments identified with an Explained Variance Ratio  of 62%.
 5. Employed PyCaret and the XGboost algorithm to enhance clustering techniques and determine feature importance
    - Achieved an accuracy rate = 99%
    
